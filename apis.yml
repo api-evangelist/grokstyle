@@ -1,7 +1,23 @@
 aid: grokstyle
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/grokstyle.png
 name: Grokstyle
-description: Grokstyle is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: GrokStyle was a visual-search / computer-vision startup (a Cornell Tech spinout) that let
+  users find products such as furniture and home decor from a photo, backed by Canaan Partners. It was
+  acquired by Facebook in early 2019 and wound down. As of this enrichment pass its domain (grokstyle.com)
+  is registered but resolves to no nameservers, there is no live website, developer portal, API, SDK, or
+  GitHub organization, so there is no public API surface to enrich. This profile is retained as a
+  historical portfolio lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/grokstyle/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +25,28 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: domain does not resolve (no NS records); acquired and wound down; no public API surface
+x-domain-resolves: false
+x-enriched: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Visual Search
+- Computer Vision
+- Artificial Intelligence
+- Image Recognition
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
