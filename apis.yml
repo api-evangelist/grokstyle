@@ -30,6 +30,9 @@ description: GrokStyle was a visual-search / computer-vision startup (a Cornell 
   GitHub organization, so there is no public API surface to enrich. This profile is retained as a
   historical portfolio lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/grokstyle/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this enrichment pass its domain (grokstyle.com) is registered but resolves to no nameservers, there is no live website, developer portal, API, SDK, or GitHub organization, so there is no public "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
