@@ -49,7 +49,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Visual Search
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Image Recognition
 - Defunct
@@ -60,6 +60,7 @@ tags_raw:
 - Artificial Intelligence
 - Image Recognition
 - Defunct
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
